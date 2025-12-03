@@ -19,7 +19,7 @@ Response:
 
 ## 🚀 Get Started (Free)
 
-You get **100 free requests per day** — no credit card required.
+You get **25 free requests per day** — no credit card required.
 
 👉 **Get your free API key:** [https://tempmailchecker.com](https://tempmailchecker.com)
 
@@ -76,7 +76,7 @@ curl "https://tempmailchecker.com/api/usage?key=YOUR_API_KEY"
 ```json
 {
   "usage_today": 87,
-  "limit": 100,
+  "limit": 25,
   "reset": "midnight UTC"
 }
 ```
@@ -132,16 +132,16 @@ echo $result;
 
 | Plan | Requests / day | Cost             |
 |------|----------------|------------------|
-| Free | 100            | Free during beta |
+| Free | 25            | Free during beta |
 
 When you exceed the limit:
 
 ```json
 {
   "error": "Rate limit exceeded",
-  "message": "You have exceeded your daily limit of 100 requests",
-  "limit": 100,
-  "used": 100,
+  "message": "You have exceeded your daily limit of 25 requests",
+  "limit": 25,
+  "used": 25,
   "reset": "midnight UTC"
 }
 ```
